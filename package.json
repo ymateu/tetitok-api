@@ -1,9 +1,25 @@
 {
+  "name": "tetitok-api",
+  "version": "1.0.0",
+  "description": "API do tetitok",
+  "main": "main.js",
   "scripts": {
-    "run": "node main.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node main.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ymateu/tetitok-api.git"
+  },
+  "author": "ymateu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ymateu/tetitok-api/issues"
+  },
+  "homepage": "https://github.com/ymateu/tetitok-api#readme",
   "dependencies": {
     "cors": "^2.8.6",
+    "dotenv": "^17.2.3",
     "express": "^5.2.1"
   }
 }
