@@ -9,7 +9,9 @@ function calculateOdds(likes, dislikes) {
         odd: odd.toFixed(2),
         percentage: percentage.toFixed(2),
         popularity: percentage > 60 ? 'Popular' : 'Unpopular',
-    }
+    };
 
     return postOdd;
 }
+
+module.exports = { calculateOdds };
